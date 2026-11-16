@@ -1,0 +1,14 @@
+{
+  "name": "nfx-workflow",
+  "owner": {
+    "name": "nfactorial"
+  },
+  "description": "The nfx spec-driven workflow plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "nfx",
+      "source": "./",
+      "description": "A spec-driven workflow for Claude Code: one spec per thing, planned just in time, implemented by subagents with an independent reviewer, and folded back into a living record of the code."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Python bytecode from skills that ship scripts (nfx-health)
+__pycache__/
+*.pyc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
