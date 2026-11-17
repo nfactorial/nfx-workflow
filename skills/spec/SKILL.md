@@ -100,6 +100,11 @@ leaves; the index needs no other edit.
   ones folded in); what building needs that only the technical doc holds (bring it in);
   rejected alternatives (into the technical doc, asking if it lacks them).
 
+**Commit what you wrote** (planning, answers folded in, a new spec or change), once it lints
+clean, as `L-commit-ask` says: by path, only the documents this session edited (`git add --
+<paths>`, then `git commit -- <paths>`), with their trailers (`L-trailers`). A fold makes its own
+commit instead. When `L-commit-ask` says to wait, step 4 says what is waiting.
+
 ## 4. Report
 
 Summarise what changed, without pasting the spec. Then a row per spec of the feature and per
@@ -110,6 +115,8 @@ pending change, from their headers and headings:
 | *spec, or "spec › change"* | *draft / ready / built* | *Sonnet / deep / main session only; full / light review* | *one line* | *unanswered question, blocking spec or change, old-format, missing touchpoint or `Repo:` line, asset work, or none* |
 
 A built spec's own row has no Delegation. End with the next change or spec to implement
-(`/nfx:implement <spec-path> [<change name>]`), or the planning it still needs. Work made
+(`/nfx:implement <spec-path> [<change name>]`), or the planning it still needs. Give that
+command, and the fresh session before it, only once this session's edits are committed
+(`L-commit-ask`); otherwise say what is uncommitted and what the commit waits on. Work made
 `ready` gets a line on `/nfx:second-opinion <spec-path> [<change name>]`, recommended when risky
 (shared code, async or concurrent ordering, deep Delegation, high blast radius), else optional.

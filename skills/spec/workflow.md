@@ -124,6 +124,8 @@ project that uses `docs/` is followed.
   and nothing waits on the user (an open question, a deviation not auto-accepted, a finding or
   assumption marked *ask*, an unconfirmed human check, doubt about what belongs in the commit).
 - When something waits on the user, the session tells the user what, instead of committing.
+- A session suggests `/clear`, or a command that starts the next change, only once its own
+  work is committed; until then it says what is uncommitted and what its commit waits on.
 - A "don't commit" or "don't push" in the session, or a project rule, wins.
 - A push goes only to the current branch's upstream.
 - A session never force-pushes, rewrites pushed history or skips hooks.

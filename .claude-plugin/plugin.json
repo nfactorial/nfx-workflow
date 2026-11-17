@@ -1,6 +1,6 @@
 {
   "name": "nfx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A spec-driven workflow for Claude Code: one spec per thing, planned just in time, implemented by subagents with an independent reviewer, and folded back into a living record of the code.",
   "author": {
     "name": "nfactorial"
