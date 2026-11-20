@@ -416,7 +416,7 @@ work it is needed for:
 
 ## Updating and feedback
 
-This is version 0.1.0. Update with `/plugin marketplace update nfx-workflow`, or remove the plugin with
+This is version 1.1.0. Update with `/plugin marketplace update nfx-workflow`, or remove the plugin with
 `/plugin uninstall nfx@nfx-workflow`. Questions, bugs and ideas are welcome as
 [GitHub issues](https://github.com/nfactorial/nfx-workflow/issues).
 

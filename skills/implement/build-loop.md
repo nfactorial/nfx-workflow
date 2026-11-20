@@ -51,6 +51,8 @@ procedure's to handle: a milestone or auto run handles it as its rules handle an
    - **Review:** `light review` spawns every `nfx:spec-reviewer` with `model: "sonnet"` and
      `effort: "medium"`, and uses `/code-review low`. `full review` spawns it as its
      definition says, with `/code-review` at the level the project names, or `medium`.
+   - **Re-reviews** (step 6) always spawn `nfx:spec-reviewer` with `model: "sonnet"` and
+     `effort: "high"`.
    - **Fix checks** (step 8) always spawn `nfx:spec-reviewer` with `model: "sonnet"` and
      `effort: "medium"`.
 3. **Delegate.** Give the implementer the spec path and the change name (none for a new
